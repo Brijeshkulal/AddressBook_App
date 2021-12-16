@@ -22,25 +22,25 @@ public class AddressBookController {
 		return new ResponseEntity<String>("Get call success", HttpStatus.OK);
 	}
 
-    @GetMapping("/get/{contactId}")
-    public ResponseEntity<String> getContactData(@PathVariable("contactId") int contactId) {
-        return new ResponseEntity<String>("Get call success for id", HttpStatus.OK);
-    }
+	@GetMapping("/get/{contactId}")
+	public ResponseEntity<String> getContactData(@PathVariable("contactId") int contactId) {
+		return new ResponseEntity<String>("Get call success for id", HttpStatus.OK);
+	}
 
-    @PostMapping("/create")
-    public ResponseEntity<String> addContactData(@RequestBody ContactDTO contactDTO) {
-        return new ResponseEntity<String>("Created contact data for " + contactDTO, HttpStatus.OK);
-    }
+	@PostMapping("/create")
+	public ResponseEntity<String> addContactData(@RequestBody ContactDTO contactDTO) {
+		return new ResponseEntity<String>("Created contact data for " + contactDTO, HttpStatus.OK);
+	}
 
-    @PutMapping("/update/{contactId}")
-    public ResponseEntity<String> updateContactData(@PathVariable("contactId") int contactId,
-            @RequestBody ContactDTO contactDTO) {
-        return new ResponseEntity<String>("Updated contact data for " + contactDTO, HttpStatus.OK);
-    }
+	@PutMapping("/update/{contactId}")
+	public ResponseEntity<String> updateContactData(@PathVariable("contactId") int contactId,
+			@RequestBody ContactDTO contactDTO) {
+		return new ResponseEntity<String>("Updated contact data for " + contactDTO, HttpStatus.OK);
+	}
 
-    @DeleteMapping("/delete/{contactId}")
-    public ResponseEntity<String> deleteContactData(@PathVariable("contactId") int contactId) {
-        return new ResponseEntity<String>("Delete call success for id " + contactId, HttpStatus.OK);
-    }
+	@DeleteMapping("/delete/{contactId}")
+	public ResponseEntity<String> deleteContactData(@PathVariable("contactId") int contactId) {
+		return new ResponseEntity<String>("Delete call success for id " + contactId, HttpStatus.OK);
+	}
 }
 
