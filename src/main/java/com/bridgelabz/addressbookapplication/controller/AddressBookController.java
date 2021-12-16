@@ -18,7 +18,7 @@ import com.bridgelabz.addressbookapplication.dto.ContactDTO;
 public class AddressBookController {
 	
 	@RequestMapping(value = { "", "/", "/get" })
-    public ResponseEntity<String> getContactData() {
+	public ResponseEntity<String> getContactData() {
 		return new ResponseEntity<String>("Get call success", HttpStatus.OK);
 	}
 
