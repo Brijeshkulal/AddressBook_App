@@ -16,13 +16,12 @@ public class Contact {
 	
 	public Contact(int contactId, ContactDTO contactDTO) {
 		this.contactId = contactId;
-		this.firstName = firstName;
-		this.lastName = lastName;
-		this.address = address;
-		this.state = state;
-		this.city = city;
-		this.zip = zip;
-		this.phone = phone;
+		this.lastName = contactDTO.lastName;
+		this.address = contactDTO.address;
+		this.state = contactDTO.state;
+		this.city = contactDTO.city;
+		this.zip = contactDTO.zip;
+		this.phone = contactDTO.phone;
 	}
 	
 	public Contact() {
