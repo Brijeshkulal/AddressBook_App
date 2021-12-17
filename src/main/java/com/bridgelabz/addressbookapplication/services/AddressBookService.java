@@ -14,13 +14,13 @@ public class AddressBookService implements IAddressBookService{
 	@Override
 	public List<Contact> getContact() {
 		List<Contact> contactList = new ArrayList<>();
-		contactList.add(new Contact(1, new ContactDTO("Front", "Man", "Play Arena", "Karnataka", "Bengaluru", "560001", "9876543210")));
+		contactList.add(new Contact(1, new ContactDTO("Brijesh", "kulal", "jai-hind block", "Karnataka", "Mangaluru", "671323", "9876548910")));
 		return contactList;
 	}
 
 	@Override
 	public Contact getContactById(int contactId) {
-		Contact contact = new Contact(1, new ContactDTO("Front", "Man", "Play Arena", "Karnataka", "Bengaluru", "560001", "9876543210"));
+		Contact contact = new Contact(1, new ContactDTO("Brijesh", "kulal", "jai-hind block", "Karnataka", "Mangaluru", "671323", "9876548910"));
 		return contact;
 	}
 
