@@ -16,6 +16,7 @@ public class Contact {
 	
 	public Contact(int contactId, ContactDTO contactDTO) {
 		this.contactId = contactId;
+		this.firstName = contactDTO.firstName;
 		this.lastName = contactDTO.lastName;
 		this.address = contactDTO.address;
 		this.state = contactDTO.state;
