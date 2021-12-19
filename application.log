@@ -1,0 +1,6 @@
+2021-12-19 16:50:22.352  INFO 10356 --- [restartedMain] c.b.a.AddressbookapplicationApplication  : Starting AddressbookapplicationApplication using Java 17 on DESKTOP-U3IERAO with PID 10356 (D:\Bridgelabz\java\addressbookapplication\target\classes started by Brijesh Kullal in D:\Bridgelabz\java\addressbookapplication)
+2021-12-19 16:50:22.353 DEBUG 10356 --- [restartedMain] c.b.a.AddressbookapplicationApplication  : Running with Spring Boot v2.6.1, Spring v5.3.13
+2021-12-19 16:50:22.354  INFO 10356 --- [restartedMain] c.b.a.AddressbookapplicationApplication  : No active profile set, falling back to default profiles: default
+2021-12-19 16:50:23.005  WARN 10356 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-19 16:50:23.223  INFO 10356 --- [restartedMain] c.b.a.AddressbookapplicationApplication  : Started AddressbookapplicationApplication in 1.026 seconds (JVM running for 267.745)
+2021-12-19 16:50:23.227  INFO 10356 --- [restartedMain] c.b.a.AddressbookapplicationApplication  : Employee Payroll App Started.
